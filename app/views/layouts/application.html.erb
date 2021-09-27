@@ -8,9 +8,12 @@
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link rel="shortcut icon" href="img/favicon.ico">
   </head>
 
-  <body>
+  <body oncontextmenu="return false;">
     <%= yield %>
+    <!-- Font-Awesomeの読み込み -->
+    <script src="https://kit.fontawesome.com/9cb0fb9439.js" crossorigin="anonymous"></script>
   </body>
 </html>

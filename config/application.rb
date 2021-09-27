@@ -18,5 +18,8 @@ module Lorem
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+
+    #^^
+    config.hosts << "bb5669b58f5b48168829a18c2d71ff4b.vfs.cloud9.us-east-1.amazonaws.com"
   end
 end
